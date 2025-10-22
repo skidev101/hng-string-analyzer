@@ -5,7 +5,6 @@ const MONGO_URI = process.env.MONGO_URI as string;
 
 export async function setupTestDB() {
   await mongoose.connect(MONGO_URI);
-  await mongoose.connect(MONGO_URI);
 }
 
 export async function teardownTestDB() {
