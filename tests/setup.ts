@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
 
-// const MONGO_URI = "";
+const MONGO_URI = process.env.MONGO_URI;
 
 export async function setupTestDB() {
-  await mongoose.connect("mongodb+srv://monaski:a3sDU6WUw4tTPKBA@cluster0.jumilbv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+  await mongoose.connect(MONGO_URI);
 }
 
 export async function teardownTestDB() {
