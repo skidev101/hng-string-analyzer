@@ -1,4 +1,4 @@
-**String Analyzer Service API**
+## **String Analyzer Service API**
 
 This is a robust backend service, built with Node.js, Express, and Mongoose, provides comprehensive insights into any string you throw at it. From calculating length and identifying palindromes to character frequency and SHA-256 hashing, this API is your go-to for understanding string data. Perfect for developers looking to integrate advanced string processing capabilities into their applications.
 
