@@ -6,4 +6,5 @@ export default {
   moduleDirectories: ["node_modules", "src"],
   moduleFileExtensions: ["ts", "js", "json"],
   clearMocks: true,
+  setupFiles: ["dotenv/config"]
 };
